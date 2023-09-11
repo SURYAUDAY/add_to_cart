@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Work+Sans:wght@300&display=swap');
+
+*{
+    font-family: Poppins, sans-serif;
+}
+.container1 {
+    display: flex;
+}
+
+.left-container, .right-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex: 1;
+}
+
+.heart-button {
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Style to indicate an item is in the cart */
+.added {
+    background-color: lightgreen;
+}
+
+img{
+width:100px;
+}
+
+fieldset{
+    border: 1px solid black;
+}
+
+h3{
+    text-align: center;
+}
