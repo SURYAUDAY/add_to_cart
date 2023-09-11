@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-/* Style to indicate an item is in the cart */
+
 .added {
     background-color: lightgreen;
 }
