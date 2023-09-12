@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             rowInCart.remove();
             addedItems.delete(itemId);
             const leftButton = rowData.querySelector(".heart-button");
-            leftButton.style.color = "red";
+            leftButton.style.color = "grey";
         } else {
            
             const row = rowData.cloneNode(true);
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
            
             const leftButton = rowData.querySelector(".heart-button");
-            leftButton.style.color = "grey";
+            leftButton.style.color = "red";
         }
     }
 
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${values.description}</td>
                 <td>${values.price}</td>
                 <td><img src="${values.image}"/></td>
-               <td><i class="fa-solid fa-heart heart-button" style="color: #f70202;"></i></td>
+               <td><i class="fa-solid fa-heart heart-button" style="color: grey;"></i></td>
                 `;
 
                 
