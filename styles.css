@@ -38,3 +38,8 @@ fieldset{
 h3{
     text-align: center;
 }
+
+.added {
+    background-color: lightgreen;
+    color: grey; /* Change the heart color to grey */
+}
